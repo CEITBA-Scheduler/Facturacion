@@ -1,0 +1,12 @@
+
+.idea/*
+/datos
+*.pyc
+/db.sqlite3
+env3/
+static/*
+config-prod.sh
+CEITBA/settings_prod.py
+*.mo
+*.xlsx
+.env

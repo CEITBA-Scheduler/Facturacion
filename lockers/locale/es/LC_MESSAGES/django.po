@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-02 13:24-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lockers/admin/EnrollmentSearchWidget.py:22
+msgid "search a student by name or id"
+msgstr "Busque un alumno por nombre o legajo"
+
+#: lockers/admin/LockerAssignationAdmin.py:30 lockers/models.py:43
+msgid "Locker Site"
+msgstr "Ubicación de Locker"
+
+#: lockers/admin/LockerAssignationAdmin.py:41
+#: lockers/admin/LockerHoldAdmin.py:36 lockers/admin/LockerQueueAdmin.py:44
+msgid "id"
+msgstr "legajo"
+
+#: lockers/admin/LockerAssignationAdmin.py:46
+#: lockers/admin/LockerHoldAdmin.py:41 lockers/admin/LockerQueueAdmin.py:49
+#: lockers/models.py:162 lockers/models.py:215
+msgid "member"
+msgstr "miembro"
+
+#: lockers/admin/LockerHoldAdmin.py:46 lockers/models.py:156
+#: lockers/models.py:209
+msgid "locker site"
+msgstr "ubicación de locker"
+
+#: lockers/admin/LockerQueueAdmin.py:72
+msgid "On Hold"
+msgstr "Reservado"
+
+#: lockers/admin/LockerSiteAdmin.py:40
+msgid "used"
+msgstr "usados"
+
+#: lockers/admin/LockerSiteAdmin.py:45
+msgid "free"
+msgstr "libres"
+
+#: lockers/admin/LockerSiteAdmin.py:50
+msgid "next free locker"
+msgstr "próximo locker libre"
+
+#: lockers/admin/LockerSiteAdmin.py:78
+msgid "Export to Excel"
+msgstr ""
+
+#: lockers/admin/LockerSiteAdmin.py:82
+msgid "Export"
+msgstr ""
+
+#: lockers/models.py:29 lockers/models.py:91 lockers/models.py:165
+#: lockers/models.py:221
+msgid "date created"
+msgstr "fecha de alta"
+
+#: lockers/models.py:34
+msgid "count"
+msgstr "cantidad"
+
+#: lockers/models.py:44
+msgid "Locker Sites"
+msgstr "Ubicación de Lockers"
+
+#: lockers/models.py:84
+msgid "enrollment"
+msgstr "suscripción"
+
+#: lockers/models.py:88 lockers/models.py:218
+msgid "locker id"
+msgstr "número de locker"
+
+#: lockers/models.py:105
+msgid "Invalid Locker ID"
+msgstr "ID de Locker Invalido"
+
+#: lockers/models.py:113
+msgid "This locker is already assigned"
+msgstr "Este locker ya esta asignado"
+
+#: lockers/models.py:116 lockers/models.py:117
+msgid "Locker Assignation"
+msgstr "Asignación de Locker"
+
+#: lockers/models.py:171 lockers/models.py:172
+msgid "Locker Queue"
+msgstr "Lista de Espera de Lockers"
+
+#: lockers/models.py:195
+msgid "This member already has a locker!"
+msgstr ""
+
+#: lockers/models.py:227 lockers/models.py:228
+msgid "Locker Hold"
+msgstr "Reserva de Locker"
+
+#: lockers/models.py:304
+msgid "CEITBA: Tu locker ya esta disponible!"
+msgstr ""

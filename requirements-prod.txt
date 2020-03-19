@@ -1,0 +1,4 @@
+gunicorn==19.8.1
+psycopg2==2.7.4
+python-memcached==1.59
+datadog==0.21.0

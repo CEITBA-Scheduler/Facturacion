@@ -1,0 +1,16 @@
+Django==2.0.5
+Django-Select2==6.0.2
+XlsxWriter==1.0.4
+python-dateutil==2.7.3
+python-mimeparse==1.6.0
+<<<<<<< HEAD
+django-constance[database]==2.2.0
+django-allauth==0.35.0
+=======
+django-constance[database]==2.0.0
+django-allauth==0.34.0
+oauth2client
+PyOpenSSL
+gspread
+
+>>>>>>> c5b34188a09cab9d1d8a7e8c310d6ee64756161f

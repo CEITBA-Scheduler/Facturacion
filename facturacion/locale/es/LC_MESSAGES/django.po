@@ -1,0 +1,376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-02 13:24-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: facturacion/admin/CustomModelAdmin.py:23
+#: facturacion/admin/EnrollmentAdmin.py:188
+msgid "reported"
+msgstr "Facturado"
+
+#: facturacion/admin/CustomModelAdmin.py:29 facturacion/models.py:458
+#: facturacion/models.py:610 facturacion/models.py:656
+#: facturacion/models.py:709
+msgid "student"
+msgstr "alumno"
+
+#: facturacion/admin/CustomModelAdmin.py:34
+#: facturacion/admin/StudentAdmin.py:15 facturacion/admin/StudentAdmin.py:131
+#: facturacion/admin/listfilters.py:9 facturacion/models.py:111
+#: facturacion/models.py:507
+msgid "active"
+msgstr "activo"
+
+#: facturacion/admin/DebtAdmin.py:103 facturacion/admin/EnrollmentAdmin.py:145
+#: facturacion/admin/PurchaseAdmin.py:106
+#: facturacion/admin/ReimbursementAdmin.py:88 facturacion/models.py:55
+#: facturacion/models.py:516
+msgid "id"
+msgstr "legajo"
+
+#: facturacion/admin/DebtAdmin.py:108
+#: facturacion/admin/ReimbursementAdmin.py:93 facturacion/models.py:669
+msgid "amount"
+msgstr "monto"
+
+#: facturacion/admin/DebtAdmin.py:124 facturacion/admin/listfilters.py:30
+msgid "is paid"
+msgstr "pagado"
+
+#: facturacion/admin/EnrollmentAdmin.py:53
+msgid "Debit medical exam"
+msgstr "Facturar examen médico"
+
+#: facturacion/admin/EnrollmentAdmin.py:54
+msgid "Select this to automatically add a purchase for the YMCA medical exam"
+msgstr ""
+"Seleccione esta opción para agragar automaticamente una compra en concepto "
+"del examen médico del YMCA"
+
+#: facturacion/admin/EnrollmentAdmin.py:160
+msgid "service price"
+msgstr "precio del servicio"
+
+#: facturacion/admin/EnrollmentAdmin.py:175
+msgid "last modified"
+msgstr "última modificación"
+
+#: facturacion/admin/FacturacionAdmin.py:46
+#: facturacion/admin/FacturacionAdmin.py:72
+msgid "Invalid HTTP method"
+msgstr "Método HTTP invalido"
+
+#: facturacion/admin/FacturacionAdmin.py:49
+msgid "Missing service parameter."
+msgstr "Falta el parametro de servicio."
+
+#: facturacion/admin/FacturacionAdmin.py:54
+msgid "Service does not exist"
+msgstr "El servicio no existe"
+
+#: facturacion/admin/FacturacionAdmin.py:75
+msgid "Missing lockersite parameter."
+msgstr "Falta el parametro de ubicación de locker."
+
+#: facturacion/admin/FacturacionAdmin.py:80
+msgid "Locker Site does not exist"
+msgstr "La ubucación de lockers no existe"
+
+#: facturacion/admin/ProductAdmin.py:28 facturacion/admin/ServiceAdmin.py:77
+#: facturacion/models.py:151 facturacion/models.py:224
+msgid "price"
+msgstr "precio"
+
+#: facturacion/admin/ProductAdmin.py:76
+msgid ""
+"A product with this name already existed. It was disabled to use the one "
+"just created."
+msgstr ""
+"Un producto con este nombre ya existe. Fue deshabilitado para usar el recién "
+"creado."
+
+#: facturacion/admin/ReimbursementAdmin.py:101 facturacion/models.py:664
+msgid "concept"
+msgstr "concepto"
+
+#: facturacion/admin/ReportAdmin.py:44 facturacion/admin/ServiceAdmin.py:109
+msgid "earnings"
+msgstr "ingresos"
+
+#: facturacion/admin/ReportAdmin.py:49
+msgid "losses"
+msgstr "pérdidas"
+
+#: facturacion/admin/ReportAdmin.py:64
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: facturacion/admin/ReportAdmin.py:114
+msgid "from date"
+msgstr "desde fecha"
+
+#: facturacion/admin/ServiceAdmin.py:108
+msgid "suscribed"
+msgstr "Suscriptos"
+
+#: facturacion/admin/ServiceAdmin.py:116
+msgid "Export to Excel"
+msgstr "Exportar a Excel"
+
+#: facturacion/admin/ServiceAdmin.py:120
+msgid "Export"
+msgstr "Exportar"
+
+#: facturacion/admin/StudentAdmin.py:21 facturacion/admin/listfilters.py:15
+#: facturacion/admin/listfilters.py:36
+msgid "Yes"
+msgstr "Si"
+
+#: facturacion/admin/StudentAdmin.py:22 facturacion/admin/listfilters.py:16
+#: facturacion/admin/listfilters.py:37
+msgid "No"
+msgstr "No"
+
+#: facturacion/admin/StudentAdmin.py:43
+msgid "Add CEITBA enrollment"
+msgstr "Agregar suscripción al CEITBA"
+
+#: facturacion/admin/StudentAdmin.py:44
+msgid "Select this to automatically add an enrollment to the CEITBA service."
+msgstr ""
+"Seleccione esta opción para agragar automaticamente una suscripción al "
+"servicio del CEITBA"
+
+#: facturacion/admin/StudentSearchWidget.py:18
+msgid "search a student by name or id"
+msgstr "Busque un alumno por nombre o legajo"
+
+#: facturacion/admin/listfilters.py:51 facturacion/models.py:463
+msgid "service"
+msgstr "servicio"
+
+#: facturacion/models.py:41
+msgid "You need to enter an ITBA email address."
+msgstr "Debe ingresar un email del ITBA."
+
+#: facturacion/models.py:51 facturacion/models.py:145 facturacion/models.py:220
+msgid "name"
+msgstr "nombre"
+
+#: facturacion/models.py:60 facturacion/models.py:156 facturacion/models.py:229
+#: facturacion/models.py:467 facturacion/models.py:659
+#: facturacion/models.py:716
+msgid "date created"
+msgstr "fecha de alta"
+
+#: facturacion/models.py:65 facturacion/models.py:161 facturacion/models.py:234
+#: facturacion/models.py:472
+msgid "date removed"
+msgstr "fecha de baja"
+
+#: facturacion/models.py:70
+msgid "email"
+msgstr "email"
+
+#: facturacion/models.py:73
+msgid "It must be an @itba.edu.ar email address."
+msgstr "Debe ser un email @itba.edu.ar"
+
+#: facturacion/models.py:82
+msgid "Student"
+msgstr "Alumno"
+
+#: facturacion/models.py:83
+msgid "Staff"
+msgstr "Personal"
+
+#: facturacion/models.py:84
+msgid "Ex Student"
+msgstr "Ex Alumno"
+
+#: facturacion/models.py:85
+msgid "Exchange"
+msgstr "Intercambio"
+
+#: facturacion/models.py:89 facturacion/models.py:183
+msgid "type"
+msgstr "tipo"
+
+#: facturacion/models.py:99
+msgid "Member"
+msgstr "Miembro"
+
+#: facturacion/models.py:100
+msgid "Members"
+msgstr "Miembros"
+
+#: facturacion/models.py:167
+msgid "single subscription"
+msgstr "suscripción única"
+
+#: facturacion/models.py:168
+msgid "Unmark this box to allow more than one subscription per member"
+msgstr ""
+"Desmarque esta casilla para permitir más de una suscripción por miembro"
+
+#: facturacion/models.py:178
+msgid "None"
+msgstr "Ninguno"
+
+#: facturacion/models.py:179
+msgid "Locker"
+msgstr "Locker"
+
+#: facturacion/models.py:180
+msgid "Language Course"
+msgstr "Curso de Idioma"
+
+#: facturacion/models.py:193
+msgid "Service"
+msgstr "servicio"
+
+#: facturacion/models.py:194
+msgid "Services"
+msgstr "servicios"
+
+#: facturacion/models.py:244
+msgid "Product"
+msgstr "producto"
+
+#: facturacion/models.py:245
+msgid "Products"
+msgstr "productos"
+
+#: facturacion/models.py:291
+msgid "to date"
+msgstr "hasta fecha"
+
+#: facturacion/models.py:295
+msgid "total earnings"
+msgstr "ingresos"
+
+#: facturacion/models.py:300
+msgid "total losses"
+msgstr "perdidas"
+
+#: facturacion/models.py:305
+msgid "report file"
+msgstr "Archivo de Facturación"
+
+#: facturacion/models.py:309
+msgid "staff report file"
+msgstr "Archivo de Facturación de Personal"
+
+#: facturacion/models.py:314
+msgid "students count"
+msgstr "cantidad de alumnos"
+
+#: facturacion/models.py:318
+msgid "active members"
+msgstr "activo"
+
+#: facturacion/models.py:322
+msgid "subscriptions"
+msgstr "altas"
+
+#: facturacion/models.py:326
+msgid "unsubscriptions"
+msgstr "bajas"
+
+#: facturacion/models.py:331
+msgid "Report"
+msgstr "Reporte"
+
+#: facturacion/models.py:332
+msgid "Reports"
+msgstr "Reportes"
+
+#: facturacion/models.py:489
+msgid "billable"
+msgstr "facturar"
+
+#: facturacion/models.py:491
+msgid "Unmark if this enrollment shouldn't be included in a report."
+msgstr "Desmarquelo si esta suscripción no debería ser incluida en el reporte."
+
+#: facturacion/models.py:498
+msgid "Enrollment"
+msgstr "Suscripción"
+
+#: facturacion/models.py:499
+msgid "Enrollments"
+msgstr "Suscripciones"
+
+#: facturacion/models.py:534
+msgid "The user is already subscribed to the service."
+msgstr "Este usuario ya esta suscripto al servicio."
+
+#: facturacion/models.py:614
+msgid "date"
+msgstr "fecha"
+
+#: facturacion/models.py:625
+msgid "Purchase"
+msgstr "Compra"
+
+#: facturacion/models.py:626
+msgid "Purchases"
+msgstr "Compras"
+
+#: facturacion/models.py:638
+msgid "product"
+msgstr "producto"
+
+#: facturacion/models.py:642
+msgid "quantity"
+msgstr "cantidad"
+
+#: facturacion/models.py:646
+msgid "Purchase Item"
+msgstr "Item de compra"
+
+#: facturacion/models.py:647
+msgid "Purchase Items"
+msgstr "Items de compra"
+
+#: facturacion/models.py:680
+msgid "Reimbursement"
+msgstr "Reembolso"
+
+#: facturacion/models.py:681
+msgid "Reimbursements"
+msgstr "Reembolsos"
+
+#: facturacion/models.py:713
+msgid "enrollments"
+msgstr "suscripciones"
+
+#: facturacion/models.py:721
+msgid "date paid"
+msgstr "fecha de pago"
+
+#: facturacion/models.py:729
+msgid "from report"
+msgstr "de reporte"
+
+#: facturacion/models.py:746
+#, python-format
+msgid "Debt from %(from)s. Total=%(total)d"
+msgstr "Deuda de %(from)s. Total=%(total)d"
+
+#: facturacion/models.py:749
+msgid "Debt"
+msgstr "Deuda"
+
+#: facturacion/models.py:750
+msgid "Debts"
+msgstr "Deudas"

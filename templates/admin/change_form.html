@@ -1,0 +1,26 @@
+{% extends "admin/change_form.html" %}
+{% load admin_modify %}
+
+{% block submit_buttons_bottom %}
+    {% if not ceitba_model %}
+        {% submit_row %}
+    {% else %}
+        {% if ceitba_can_save %}
+            {% submit_row %}
+        {% endif %}
+    {% endif %}
+{% endblock %}
+
+{% block after_related_objects %}
+    {% if help_messages %}
+        <div class="form-row">
+            <ul class="help">
+                {% for help_message in help_messages %}
+                    <li>
+                        {{ help_message }}
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+{% endblock %}

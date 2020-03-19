@@ -1,0 +1,24 @@
+{% extends "admin/app_index.html" %}
+{% load i18n %}
+
+{% block sidebar %}
+    <div id="content-related">
+        <div class="module" id="recent-actions-module">
+            <h2>{% trans 'Actions' %}</h2>
+            <ul class="actionlist">
+                <li>
+                    <a href="{% url 'admin:export_service_range' %}">{% trans 'Exportar por rango' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'admin:impresiones' %}">{% trans 'Estado de Impresiones' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'admin:gym_member_view' %}">{% trans 'Entrada al Gimnasio' %}</a>
+                </li>
+                <li>
+                    <a href="{% url 'admin:print_report' %}">Reporte de Impresión</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}

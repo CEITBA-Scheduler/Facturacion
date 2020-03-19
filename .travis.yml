@@ -1,0 +1,26 @@
+language: python
+python:
+  - "3.5"
+
+cache:
+  - pip
+
+env:
+  - DJANGO_SETTINGS_MODULE=CEITBA.settings_prod_travis
+
+services:
+  - postgresql
+
+addons:
+  postgresql: "9.4"
+
+install:
+  - pip install -r requirements.txt
+  - pip install -r requirements-prod.txt
+
+before_script:
+  - psql -c "CREATE DATABASE travisdb;" -U postgres
+
+script:
+  - ./manage.py migrate
+  - ./manage.py test
